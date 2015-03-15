@@ -1,6 +1,6 @@
 {
   "name": "unrelative",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Transform relative path or glob pattern to absolute",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
