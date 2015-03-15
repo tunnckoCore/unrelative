@@ -17,7 +17,17 @@
     "type": "git",
     "url": "git://github.com/tunnckoCore/unrelative.git"
   },
-  "keywords": [],
+  "keywords": [
+    "absolute",
+    "file",
+    "filepath",
+    "path",
+    "relative",
+    "string",
+    "unrelative",
+    "utility",
+    "utils"
+  ],
   "license": {
     "type": "MIT",
     "url": "https://github.com/tunnckoCore/unrelative/blob/master/license.md"
