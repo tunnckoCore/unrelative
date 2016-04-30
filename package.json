@@ -1,43 +1,53 @@
 {
   "name": "unrelative",
   "version": "1.0.0",
-  "description": "Transform relative path or glob pattern to absolute",
+  "description": "Transform and normalize relative path or glob (negate) pattern to absolute. Normalizes to unix-style filepaths.",
+  "repository": "tunnckoCore/unrelative",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "precommit.silent": true,
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "lint": "jshint index.js && jscs index.js --reporter inline",
-    "test": "mocha",
-    "test-cov": "istanbul cover _mocha",
-    "test-travis": "istanbul cover _mocha --report lcovonly"
+    "test": "standard && node test.js"
   },
-  "author": {
-    "name": "Charlike Mike Reagent",
-    "email": "mameto_100@mail.bg",
-    "url": "https://github.com/tunnckoCore"
+  "dependencies": {},
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "pre-commit": "*"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tunnckoCore/unrelative.git"
-  },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "absolute",
+    "change",
     "file",
     "filepath",
+    "glob",
+    "negate",
+    "normal",
+    "normalize",
     "path",
+    "pattern",
     "relative",
     "string",
+    "style",
+    "transform",
+    "unix",
+    "unix-style",
     "unrelative",
     "utility",
     "utils"
   ],
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/tunnckoCore/unrelative/blob/master/license.md"
-  },
-  "dependencies": {
-    "is-absolute": "^0.1.7"
-  },
-  "devDependencies": {
-    "ends-with": "^0.2.0",
-    "istanbul-harmony": "^0.3.1",
-    "mocha": "~2.1.0"
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ],
+    "lint": {
+      "reflinks": true
+    }
   }
 }
