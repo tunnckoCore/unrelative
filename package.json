@@ -10,13 +10,20 @@
   "scripts": {
     "test": "standard && node test.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "is-absolute": "^0.2.5",
+    "lazy-cache": "^2.0.0",
+    "normalize-path": "^2.0.1",
+    "resolve-dir": "^0.1.0"
+  },
   "devDependencies": {
     "assertit": "^0.1.0",
+    "ends-with": "^0.2.0",
     "pre-commit": "*"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "utils.js"
   ],
   "keywords": [
     "absolute",
